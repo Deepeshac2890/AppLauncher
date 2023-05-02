@@ -43,24 +43,6 @@ class HomeScreenFragment : Fragment() {
         binding.noPermissionText.show(show)
     }
 
-    override fun onResume() {
-        super.onResume()
-        if (checkPermissionExplicitly) {
-            if (ActivityCompat.checkSelfPermission(
-                    requireContext(),
-                    Manifest.permission.READ_EXTERNAL_STORAGE
-                ) == PackageManager.PERMISSION_GRANTED
-            ) {
-                // Got the permission
-                toggleNoPermissionsUI(false)
-                setWallpaperDrawable()
-            } else {
-                toggleNoPermissionsUI(true)
-            }
-        }
-        checkPermissionExplicitly = false
-    }
-
     /**
      * Set the wallpaper which is set in the default launcher of device.
      */
@@ -96,6 +78,24 @@ class HomeScreenFragment : Fragment() {
         binding.iconDrawer.setOnClickListener {
             findNavController().navigate(HomeScreenFragmentDirections.navigateToDrawer())
         }
+    }
+
+    override fun onResume() {
+        super.onResume()
+        if (checkPermissionExplicitly) {
+            if (ActivityCompat.checkSelfPermission(
+                    requireContext(),
+                    Manifest.permission.READ_EXTERNAL_STORAGE
+                ) == PackageManager.PERMISSION_GRANTED
+            ) {
+                // Got the permission
+                toggleNoPermissionsUI(false)
+                setWallpaperDrawable()
+            } else {
+                toggleNoPermissionsUI(true)
+            }
+        }
+        checkPermissionExplicitly = false
     }
 
     override fun onCreateView(
