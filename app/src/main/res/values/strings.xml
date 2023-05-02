@@ -1,6 +1,9 @@
 <resources>
-    <string name="app_name">AppLauncher</string>
+    <string name="app_name">App Launcher</string>
     <string name="disabled_app_toast">"Admin has disabled this app"</string>
     <string name="something_bad_happened">Something Bad Happened</string>
     <string name="loading">Loading …</string>
+    <string name="unable_to_load_wallpaper_please_grant_storage_permission">Unable to load wallpaper.\n Please grant storage permission</string>
+    <string name="grant_permission">Grant Permission</string>
+    <string name="drawer">Drawer</string>
 </resources>
