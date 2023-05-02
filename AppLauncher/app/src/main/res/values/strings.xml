@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">AppLauncher</string>
+    <string name="disabled_app_toast">"Admin has disabled this app"</string>
+    <string name="something_bad_happened">Something Bad Happened</string>
+    <string name="loading">Loading …</string>
+</resources>
