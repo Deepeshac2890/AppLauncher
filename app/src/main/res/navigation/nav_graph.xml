@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/home_fragment"
-        android:name="com.example.applauncher.homeScreen.ui.HomeScreenFragment"
+        android:name="com.example.applauncher.screens.homeScreen.ui.HomeScreenFragment"
         android:label="HomeFragment">
         <action
             android:id="@+id/navigate_to_drawer"
@@ -16,6 +16,6 @@
 
     <fragment
         android:id="@+id/drawer_fragment"
-        android:name="com.example.applauncher.appDrawer.ui.AppDrawerFragment"
+        android:name="com.example.applauncher.screens.appDrawer.ui.AppDrawerFragment"
         android:label="DrawerFragment" />
 </navigation>

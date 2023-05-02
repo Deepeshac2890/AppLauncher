@@ -1,4 +1,4 @@
-package com.example.applauncher.appDrawer.ui
+package com.example.applauncher.screens.appDrawer.ui
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -7,8 +7,8 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.applauncher.R
-import com.example.applauncher.appDrawer.adapter.AppsDrawerAdapter
-import com.example.applauncher.appDrawer.viewmodel.AppDrawersViewModel
+import com.example.applauncher.screens.appDrawer.adapter.AppsDrawerAdapter
+import com.example.applauncher.screens.appDrawer.viewmodel.AppDrawersViewModel
 import com.example.applauncher.data.Repository
 import com.example.applauncher.data.network.ApiClient
 import com.example.applauncher.data.network.ScreenState

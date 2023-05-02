@@ -1,10 +1,10 @@
-package com.example.applauncher.appDrawer.adapter
+package com.example.applauncher.screens.appDrawer.adapter
 
 import android.content.Context
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.example.applauncher.appDrawer.views.AppListView
+import com.example.applauncher.screens.appDrawer.views.AppListView
 import com.example.applauncher.model.AppInfo
 
 /**

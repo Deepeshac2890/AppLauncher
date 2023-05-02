@@ -1,4 +1,4 @@
-package com.example.applauncher.appDrawer.views
+package com.example.applauncher.screens.appDrawer.views
 
 import android.content.Context
 import android.util.AttributeSet

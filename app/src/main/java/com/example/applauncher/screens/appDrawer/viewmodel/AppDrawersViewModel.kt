@@ -1,4 +1,4 @@
-package com.example.applauncher.appDrawer.viewmodel
+package com.example.applauncher.screens.appDrawer.viewmodel
 
 import android.app.Application
 import androidx.lifecycle.AndroidViewModel
