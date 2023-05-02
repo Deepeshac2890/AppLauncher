@@ -86,6 +86,7 @@ class HomeScreenFragment : Fragment() {
      */
     private fun initListener() {
         binding.grantPermissionButton.setOnClickListener {
+            checkPermissionExplicitly = true
             val intent = Intent(Settings.ACTION_APPLICATION_DETAILS_SETTINGS)
             val uri: Uri = Uri.fromParts("package", requireActivity().application.packageName, null)
             intent.data = uri
