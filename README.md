@@ -18,7 +18,7 @@ on the cleaner architecture and code reusablity. Made the code cleaner and testa
 
 Inspiration from : Microsoft Launcher
 
-Tradeoffs Made: They were in the unit testing front. Had to write minimal testcases which were needed due to time constraints. Few more features like search and lvel wise sort could have been added.
+Tradeoffs Made: They were in the unit testing front. Had to write minimal testcases which were needed due to time constraints. Few more features like search and level wise sort could have been added.
 
 Upcoming Features : 
 1. Search for the app drawer. 
