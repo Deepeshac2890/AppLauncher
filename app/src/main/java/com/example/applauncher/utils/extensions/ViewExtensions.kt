@@ -1,4 +1,4 @@
-package com.example.applauncher
+package com.example.applauncher.utils.extensions
 
 import android.view.View
 

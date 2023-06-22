@@ -15,7 +15,7 @@ import androidx.core.app.ActivityCompat
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
 import com.example.applauncher.databinding.FragmentHomeScreenBinding
-import com.example.applauncher.show
+import com.example.applauncher.utils.extensions.show
 
 
 /**

@@ -14,7 +14,7 @@ import com.example.applauncher.data.network.ApiClient
 import com.example.applauncher.data.network.ScreenState
 import com.example.applauncher.databinding.FragmentAppDrawerBinding
 import com.example.applauncher.model.AppInfo
-import com.example.applauncher.show
+import com.example.applauncher.utils.extensions.show
 
 /**
  * The app drawer fragment which will show the drawer containing the apps.
